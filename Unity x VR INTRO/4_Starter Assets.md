@@ -63,7 +63,7 @@ Now that you managed to set up a whole VR project on your own, you can download 
 
 &nbsp;
 
-## If you managed to get here, you are more capable of developing VR then the majority of the population :D
+## If you managed to get here, you know already more about VR development in Unity than the majority of the world's population :D
 
 &nbsp;
 
