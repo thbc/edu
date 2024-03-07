@@ -12,20 +12,20 @@
 
 - Enable new *Input System* by selecting "both" as *Active Input Handling* in PlayerSettings.
 
-<img src="../_resources/edu-unity-intro-02-001.gif" alt="edu-unity-intro-02-001.gif" width="880" height="554" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-001-2.gif" alt="edu-unity-intro-02-001.gif" width="880" height="554" class="jop-noMdConv">
 
 &nbsp;
 
 - Note: since we are using Unity 2021 (which is the version installed on the Lab iMacs) we have to install the package separately. If you are using 2022 it will come already preinstalled.
 
-<img src="../_resources/edu-unity-intro-02-002.gif" alt="edu-unity-intro-02-002.gif" width="879" height="609" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-002-2.gif" alt="edu-unity-intro-02-002.gif" width="879" height="609" class="jop-noMdConv">
 
 &nbsp;
 
 - Create an *InputAction.*
 - Tick *Generate C# class*.
 
-<img src="../_resources/edu-unity-intro-02-003.gif" alt="edu-unity-intro-02-003.gif" width="882" height="574" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-003-2.gif" alt="edu-unity-intro-02-003.gif" width="882" height="574" class="jop-noMdConv">
 
 &nbsp;
 
@@ -33,7 +33,7 @@
 - Create *ActionMap* and an *Action.*
 - Add a *Binding* to the *Action*.
 
-<img src="../_resources/edu-unity-intro-02-004.gif" alt="edu-unity-intro-02-004.gif" width="746" height="637" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-004-2.gif" alt="edu-unity-intro-02-004.gif" width="746" height="637" class="jop-noMdConv">
 
 &nbsp;
 
@@ -43,7 +43,7 @@
 - Here we setup the controls and assign a function to be called when the "*Spacebar_Action*" is performed.  
     `public void Awake() { controls = new MyControls_1(); controls.ActionMap_1.Spacebar_Action.performed += ctx => OnSpacebar(); }`
 
-<img src="../_resources/edu-unity-intro-02-005.gif" alt="edu-unity-intro-02-005.gif" width="751" height="484" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-005-2.gif" alt="edu-unity-intro-02-005.gif" width="751" height="484" class="jop-noMdConv">
 
 &nbsp;
 
@@ -51,7 +51,7 @@
 - Add the *InputHandler* script/component to it and press *Playmode*. Now a console message should appear when you hit the spacebar key.
 - Cool! You just designed a first interaction.
 
-<img src="../_resources/edu-unity-intro-02-006.gif" alt="edu-unity-intro-02-006.gif" width="753" height="712" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-006-2.gif" alt="edu-unity-intro-02-006.gif" width="753" height="712" class="jop-noMdConv">
 
 # Option 2) use PlayerInput component
 
@@ -70,7 +70,7 @@ Find out more about the new InputSystem here:
 
 &nbsp;
 
-<img src="../_resources/edu-unity-intro-02-007.gif" alt="edu-unity-intro-02-007.gif" width="756" height="680" class="jop-noMdConv">
+<img src="../_resources/edu-unity-intro-02-007-2.gif" alt="edu-unity-intro-02-007.gif" width="756" height="680" class="jop-noMdConv">
 
 * * *
 

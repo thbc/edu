@@ -46,7 +46,7 @@ For additional information on setting up your Meta Quest, visit: [Getting starte
 
 * * *
 
-# VR pipeline in Unity
+# VR pipeline in Unity (theory)
 
 - Device platform:  
     e.g. Android for MetaQuest, Windows for VivePro, …
@@ -56,7 +56,7 @@ For additional information on setting up your Meta Quest, visit: [Getting starte
 - OpenXR Settings:  
     add profiles for each device to support
 
-<img src="../_resources/Picture1.png" alt="Picture1.png" width="250" height="230" class="jop-noMdConv"> <img src="../_resources/Picture3.png" alt="Picture3.png" width="561" height="235" class="jop-noMdConv"><img src="../_resources/Picture2.png" alt="Picture2.png" width="231" height="227" class="jop-noMdConv">
+<img src="../_resources/Picture1-2.png" alt="Picture1.png" width="250" height="230" class="jop-noMdConv"> <img src="../_resources/Picture3-2.png" alt="Picture3.png" width="561" height="235" class="jop-noMdConv"><img src="../_resources/Picture2-2.png" alt="Picture2.png" width="231" height="227" class="jop-noMdConv">
 
 &nbsp;
 
@@ -68,31 +68,31 @@ For additional information on setting up your Meta Quest, visit: [Getting starte
 
 &nbsp;
 
-<img src="../_resources/Picture7.png" alt="Picture7.png" width="632" height="387" class="jop-noMdConv">
+<img src="../_resources/Picture7-2.png" alt="Picture7.png" width="632" height="387" class="jop-noMdConv">
 
 &nbsp;
 
-<img src="../_resources/Picture8.png" alt="Picture8.png" width="633" height="383" class="jop-noMdConv">
+<img src="../_resources/Picture8-2.png" alt="Picture8.png" width="633" height="383" class="jop-noMdConv">
 
 &nbsp;
 
-<img src="../_resources/Picture9.png" alt="Picture9.png" width="633" height="263" class="jop-noMdConv">
+<img src="../_resources/Picture9-2.png" alt="Picture9.png" width="633" height="263" class="jop-noMdConv">
 
 * * *
 
-<img src="../_resources/9ae2d23232ff67d252508f30f13b3ea7.png" alt="9ae2d23232ff67d252508f30f13b3ea7.png" width="730" height="520" class="jop-noMdConv">
+<img src="../_resources/9ae2d23232ff67d252508f30f13b3ea7-2.png" alt="9ae2d23232ff67d252508f30f13b3ea7.png" width="730" height="520" class="jop-noMdConv">
 
 * * *
 
-&nbsp;<img src="../_resources/14d3c70131595e485004aa17ac0280e8.png" alt="14d3c70131595e485004aa17ac0280e8.png" width="730" height="500" class="jop-noMdConv">
+&nbsp;<img src="../_resources/14d3c70131595e485004aa17ac0280e8-2.png" alt="14d3c70131595e485004aa17ac0280e8.png" width="730" height="500" class="jop-noMdConv">
 
 * * *
 
-<img src="../_resources/cb9d9a120193b1cc710998552fa04173.png" alt="cb9d9a120193b1cc710998552fa04173.png" width="728" height="663" class="jop-noMdConv">
+<img src="../_resources/cb9d9a120193b1cc710998552fa04173-2.png" alt="cb9d9a120193b1cc710998552fa04173.png" width="728" height="663" class="jop-noMdConv">
 
 * * *
 
-<img src="../_resources/58439500ac0fe9bc69f17f47f692628e.png" alt="58439500ac0fe9bc69f17f47f692628e.png" width="728" height="661" class="jop-noMdConv">
+<img src="../_resources/58439500ac0fe9bc69f17f47f692628e-2.png" alt="58439500ac0fe9bc69f17f47f692628e.png" width="728" height="661" class="jop-noMdConv">
 
 &nbsp;
 
@@ -104,7 +104,7 @@ Choose either one:
     turns player around by certain amount of degrees
 - Continuous Turn Provider:  
     turns player around continuously while pressing the joystick  
-    <img src="../_resources/2305dd5f39596e44dce535435f702ae8.png" alt="2305dd5f39596e44dce535435f702ae8.png" width="483" height="653" class="jop-noMdConv">
+    <img src="../_resources/2305dd5f39596e44dce535435f702ae8-2.png" alt="2305dd5f39596e44dce535435f702ae8.png" width="483" height="653" class="jop-noMdConv">
 
 &nbsp;
 
@@ -113,7 +113,7 @@ Choose either one:
 - Components for executing functions, based on interaction events
 - E.g.: hovering is triggered from moving controller over the object. Select is triggered when selection button is pressed while hovering
 
-<img src="../_resources/a879dfa57ac3deb3958d836166bb0a03.png" alt="a879dfa57ac3deb3958d836166bb0a03.png" width="554" height="619" class="jop-noMdConv"> <img src="../_resources/53dfa9d65905a869d6d9cf2377c4ed0e.png" alt="53dfa9d65905a869d6d9cf2377c4ed0e.png" width="552" height="410" class="jop-noMdConv">
+<img src="../_resources/a879dfa57ac3deb3958d836166bb0a03-2.png" alt="a879dfa57ac3deb3958d836166bb0a03.png" width="554" height="619" class="jop-noMdConv"> <img src="../_resources/53dfa9d65905a869d6d9cf2377c4ed0e-2.png" alt="53dfa9d65905a869d6d9cf2377c4ed0e.png" width="552" height="410" class="jop-noMdConv">
 
 &nbsp;
 
@@ -121,7 +121,7 @@ Choose either one:
 
 - Basic objects used for triggering events, e.g. via gaze or button interactions
 
-<img src="../_resources/972ed2f74dcc94188ea670dd8cd46a2d.png" alt="972ed2f74dcc94188ea670dd8cd46a2d.png" width="395" height="871" class="jop-noMdConv">
+<img src="../_resources/972ed2f74dcc94188ea670dd8cd46a2d-2.png" alt="972ed2f74dcc94188ea670dd8cd46a2d.png" width="395" height="871" class="jop-noMdConv">
 
 &nbsp;
 
@@ -129,6 +129,6 @@ Choose either one:
 
 - Direct and physical form of interacting with virtual objects, e.g. for picking them up, rotating or scaling them
 
-![0612874cd86dc258ba579564efa2bc8c.png](../_resources/0612874cd86dc258ba579564efa2bc8c.png)
+![0612874cd86dc258ba579564efa2bc8c.png](../_resources/0612874cd86dc258ba579564efa2bc8c-2.png)
 
-<img src="../_resources/e88abb6ef26b7f88a68d8efe785e0ca2.png" alt="e88abb6ef26b7f88a68d8efe785e0ca2.png" width="707" height="203" class="jop-noMdConv">
+<img src="../_resources/e88abb6ef26b7f88a68d8efe785e0ca2-2.png" alt="e88abb6ef26b7f88a68d8efe785e0ca2.png" width="707" height="203" class="jop-noMdConv">

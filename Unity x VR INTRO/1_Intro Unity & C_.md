@@ -12,7 +12,7 @@
 - Select *3D Core*, for now we don't need *URP*, enter a project name, location and select Unity Cloud organization. Uncheck *Connect to Unity Cloud*, as we don't need it. Also keep *Use Unity Version Control*.
 - Click *Create Project*.
 
-![000-create-project.gif](../_resources/000-create-project.gif)
+![000-create-project.gif](../_resources/000-create-project-2.gif)
 
 # Get to know the Editor
 
@@ -45,11 +45,11 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
 
 &nbsp;
 
-<img src="../_resources/71afe71fadbd0d46764c3a797e5079aa.png" alt="71afe71fadbd0d46764c3a797e5079aa.png" width="962" height="585">
+<img src="../_resources/71afe71fadbd0d46764c3a797e5079aa-2.png" alt="71afe71fadbd0d46764c3a797e5079aa.png" width="962" height="585">
 
 &nbsp;
 
-<img src="../_resources/001-editor-panels.gif" alt="001-editor-panels.gif" width="854" height="480" class="jop-noMdConv">
+<img src="../_resources/001-editor-panels-2.gif" alt="001-editor-panels.gif" width="854" height="480" class="jop-noMdConv">
 
 * * *
 
@@ -61,7 +61,7 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
 
 &nbsp;
 
-<img src="../_resources/003-first-scene.gif" alt="003-first-scene.gif" width="822" height="478" class="jop-noMdConv">
+<img src="../_resources/003-first-scene-2.gif" alt="003-first-scene.gif" width="822" height="478" class="jop-noMdConv">
 
 &nbsp;
 
@@ -81,12 +81,12 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
 
 &nbsp;
 
-<img src="../_resources/004-first-scene.gif" alt="004-first-scene.gif" width="794" height="484" class="jop-noMdConv">
+<img src="../_resources/004-first-scene-2.gif" alt="004-first-scene.gif" width="794" height="484" class="jop-noMdConv">
 
 - The `public Transform` lets you access the Transform component of a GameObject. You can always assign other GameObject's components to public properties in the inspector.
 - By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.
 
-<img src="../_resources/005-first-scene.gif" alt="005-first-scene.gif" width="785" height="566" class="jop-noMdConv">
+<img src="../_resources/005-first-scene-2.gif" alt="005-first-scene.gif" width="785" height="566" class="jop-noMdConv">
 
 * * *
 
