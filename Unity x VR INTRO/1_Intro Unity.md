@@ -81,7 +81,7 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
 
 &nbsp;
 
-<img src="../_resources/004-first-scene-2.gif" alt="004-first-scene.gif" width="794" height="484" class="jop-noMdConv">
+<img src="../_resources/004-first-scene-2.gif" alt="004-first-scene.gif" width="794" height="auto" class="jop-noMdConv">
 
 - The `public Transform` lets you access the Transform component of a GameObject. You can always assign other GameObject's components to public properties in the inspector.
 - By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.
