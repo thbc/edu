@@ -1,7 +1,7 @@
 # Intro To Unity - First Unity Project:
 ## Setup Unity Account
 - The Unity Hub lets you handle different installations of Unity Editors and manage your projects.
-- If Uniy Hub is not installed, get it from [here](https://unity.com/download).
+- If Unity Hub is not installed, get it from [here](https://unity.com/download).
 - Create an account and activate the personal license (it is free).
 
 ## Install Unity Editor (skip if already installed)
