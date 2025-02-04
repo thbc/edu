@@ -10,6 +10,7 @@
 - Click _New Project_.
 - Select _3D Core_, enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
 - _Create Project_.
+  
 ![000-create-project.gif](../_resources/000-create-project.gif "000-create-project.gif")
 
 ## Get to know the Editor
@@ -29,7 +30,7 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
             \- can be activated or deactivated.
 - **Inspector** window shows the components of a GameObject. Here you can edit the script's _public variables_, manually add or remove _components_ and assign other components from the scene to public variables.
 
-![71afe71fadbd0d46764c3a797e5079aa.png](../_resources\71afe71fadbd0d46764c3a797e5079aa.png)
+![71afe71fadbd0d46764c3a797e5079aa.png](../_resources/71afe71fadbd0d46764c3a797e5079aa.png)
 
 ![001-editor-panels-2.gif](..\_resources\001-editor-panels-2.gif)
 
@@ -37,7 +38,7 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
 - W : xyz positioning
 - E : xyz rotation
 - R : xyz scaling
-![003-first-scene-2.gif](../_resources\003-first-scene-2.gif)
+![003-first-scene-2.gif](../_resources/003-first-scene-2.gif)
 
 ## Create the first script
 
@@ -58,12 +59,12 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
     
 - The **Console** window shows the log that is outputted from scripts. You can filter what type of logs you want to see and you can search for keywords in the output texts. Double clicking on a log opens up the script that caused it.
     
-![004-first-scene-2.gif](../_resources\004-first-scene-2.gif)
+![004-first-scene-2.gif](../_resources/004-first-scene-2.gif)
 
 - Public variables are declared by the word _public_ before the variable type. Variables can be of different types, with the most common ones being: _int_, _float_, _string_, _bool_, _GameObject_, _Transform_.
 
 - E.g. the `public GameObject` lets you assign a GameObject from your scene and access its properties, like e.g. the Transform component, which holds the spatial information about the object: position, rotation and scale. So a GameObject **always** has a Transform, but a Transform never has a GameObject.  The Transform of a GameObject is accessed by `myGameObject.transform`
-- By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.![005-first-scene-2.gif](../_resources\005-first-scene-2.gif)
+- By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.![005-first-scene-2.gif](../_resources/005-first-scene-2.gif)
 
 ## More resources:
 
