@@ -10,7 +10,7 @@
 - Click _New Project_.
 - Select _3D Core_, enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
 - _Create Project_.
-![000-create-project.gif](../_resources\000-create-project.gif "000-create-project.gif")
+![000-create-project.gif](../_resources/000-create-project.gif "000-create-project.gif")
 
 ## Get to know the Editor
 Familiarize yourself with the Unity Editor window. You can customize the layout, store different layout templates and reset the layout to default.
