@@ -46,14 +46,18 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
 - While Unity uses C# as programming language, GameObjects can only contain _MonoBehaviour_ classes. Therefore, your script name needs to be always followed by "_:MonoBehaviour_".
 
   E.g.:
+  
   `using UnityEngine;
+  
   public class MyFirstScript : MonoBehaviour
+  
   {
       void Start()
       {
           Debug.Log("Hi World");
       }
-  }`
+  }
+  `
         
 - `void Start()` is executed once when the scene is started in playmode and the GameObject is initialized.
 - `void Update()` is called once per rendered frame, which means it is a good way for updating parameters smoothly.
