@@ -35,7 +35,7 @@ Make sure you have the Android module installed for the UnityEditor that you are
 ![0c8848352aa0c13ad2cb5646edd7af16.png](../_resources/0c8848352aa0c13ad2cb5646edd7af16.png)
 ![Picture2.png](../_resources/Picture2.png)
 4. Once the _OpenXR_ plugin is added, check _Meta Quest Support_ and add _Meta Quest Touch Pro Controller Profile_ to the _Interaction Profiles_. Note: Previously it was labelled _Oculus Touch Controller Profile_.
-![Screenshot 2024-03-06 174043.png](../_resources/Screenshot 2024-03-06 174043.png)
+![2024-03-06-174043.png](../_resources/2024-03-06-174043.png)
 5. Before you can build the application to your VR headset, you need to change the platform to Android, since Meta Quest is based on Android: Navigate to File > Build Settings > Choose Android as your platform and select 'Switch Platform'.
 ![567af68c09d198c92def4a8029ab7726.png](../_resources/567af68c09d198c92def4a8029ab7726.png)
 6. After succesfully switching the platform, go back to _Project Settings_ and verify that everything is set up correctly by opening _Project Validation_ under _XR Plugin Management_. In case of warning signs, click on them and confirm to fix them.![61bf05734ce474180ca606d10024f53e.png](../_resources/61bf05734ce474180ca606d10024f53e.png)
