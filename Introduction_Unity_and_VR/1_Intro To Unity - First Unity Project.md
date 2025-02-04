@@ -48,10 +48,8 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
   E.g.:
   
 ```cs
-using UnityEngine;
-  
+  using UnityEngine;
   public class MyFirstScript : MonoBehaviour
-  
   {
       void Start()
       {
