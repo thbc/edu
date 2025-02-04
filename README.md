@@ -1,1 +1,1 @@
-Course material (wip) for Unity and VR. See files in "Unity x VR INTRO" folder.
+Course material for working with VR in Unity and VR. See files in "Introduction_Unity_VR" folder.

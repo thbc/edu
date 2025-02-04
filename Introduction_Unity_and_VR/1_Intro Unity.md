@@ -8,7 +8,7 @@
 - In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2021.3.19f1 (LTS), or the latest 2021.3 LTS version.
 ## Create A New Project
 - Click _New Project_.
-- Select _3D Core_, enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
+- Select _3D Core_ (it might be called _3D (Built-in Render Pipeline)_), enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
 - _Create Project_.
   
 ![000-create-project.gif](../_resources/000-create-project.gif "000-create-project.gif")
@@ -51,12 +51,13 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
   {
       void Start()
       {
-      Debug.Log("Hi World");
+          Debug.Log("Hi World");
       }
   }`
         
-- The `void Start()` is executed automatically when the scene is started. `void Update()` is called once per rendered frame, which means it is a good way for updating parameters smoothly. [Learn more here about the differences](https://learn.unity.com/tutorial/awake-and-start) between Unity's initialization calls like Awake, OnEnable, Start.
-    
+- `void Start()` is executed once when the scene is started in playmode and the GameObject is initialized.
+- `void Update()` is called once per rendered frame, which means it is a good way for updating parameters smoothly.
+- [Here you can learn more about the differences](https://learn.unity.com/tutorial/awake-and-start) between Unity's initialization calls like Awake, OnEnable, Start etc. 
 - The **Console** window shows the log that is outputted from scripts. You can filter what type of logs you want to see and you can search for keywords in the output texts. Double clicking on a log opens up the script that caused it.
     
 ![004-first-scene-2.gif](../_resources/004-first-scene-2.gif)
@@ -70,4 +71,5 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
 
 - For a more thourough (17minutes) introduction to Unity check out [this video from CodeMonkey](https://www.youtube.com/watch?v=E6A4WvsDeLE).
 - The official Unity learning tutorials [for begginner scripting](https://learn.unity.com/project/beginner-gameplay-scripting?uv=2019.3) and [intermediate gameplay scripting](https://learn.unity.com/project/intermediate-gameplay-scripting) will also provide you with a good foundation for later tasks.
+
 Keep in mind: While Unity lets you work visually with components and doesnt require you to code, a better understanding of C# will give you more power for designing and creating sophisticated and complex interactions.
