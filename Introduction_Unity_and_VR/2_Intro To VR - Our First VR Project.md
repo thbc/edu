@@ -43,9 +43,9 @@ Make sure you have the Android module installed for the UnityEditor that you are
 7. You should be ready to build your first application now.
 ## Build first application
 1. Open the _SampleScene_, right click the _Main Camera_ and convert to XR rig: _Main Camera > XR > Convert Main Camera To XR Rig_.
-![first_vr_scene_01.PNG](..\_resources\first_vr_scene_01.png)
+![first_vr_scene_01.png](..\_resources\first_vr_scene_01.png)
 2. Right click in the _hierarchy_ window and add a _Cube_. Then save the scene.
-![first_vr_scene_02.PNG](..\_resources\first_vr_scene_02.png)
+![first_vr_scene_02.png](..\_resources\first_vr_scene_02.png)
 3. Open the _Build Settings_ again. Make sure the VR headset is connected via USB and recognized: from the Run Device dropdown, select your device. If it doesn't appear, confirm that Developer Mode is on and click 'Refresh'.
 4. Click _Add Open Scenes_ and _Build And Run_.
 5. The application should be started on your headset now.
