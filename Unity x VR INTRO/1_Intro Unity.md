@@ -1,35 +1,24 @@
-# Setup Unity Account
+# Intro To Unity - First Unity Project:
+## Setup Unity Account
+- The Unity Hub lets you handle different installations of Unity Editors and manage your projects.
+- If Uniy Hub is not installed, get it from [here](https://unity.com/download).
+- Create an account and activate the personal license (it is free).
 
-- Create account
-- activate personal license
+## Install Unity Editor (skip if already installed)
+- In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2021.3.19f1 (LTS), or the latest 2021.3 LTS version.
+## Create A New Project
+- Click _New Project_.
+- Select _3D Core_, enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
+- _Create Project_.
+![000-create-project.gif](..\_resources\000-create-project.gif "000-create-project.gif")
 
-&nbsp;
-
-# Create a new project
-
-- In the Unity Hub, select *Installs* and click *Install Editor* and install Version 2021.3.19f1 (LTS), or the latest 2021.3 LTS version.
-- Click *New Project*.
-- Select *3D Core*, for now we don't need *URP*, enter a project name, location and select Unity Cloud organization. Uncheck *Connect to Unity Cloud*, as we don't need it. Also keep *Use Unity Version Control*.
-- Click *Create Project*.
-
-![000-create-project.gif](../_resources/000-create-project-2.gif)
-
-# Get to know the Editor
-
-Familiarize yourself with the Unity Editor window. You can customize the layout, store different layout templates and reset to default.
+## Get to know the Editor
+Familiarize yourself with the Unity Editor window. You can customize the layout, store different layout templates and reset the layout to default.
 
 - **Project** window shows the
-    - **assets**:  
-        keeps all of your projects assets such as scenes, scripts, media, textures etc.
-    - **packages**:  
-        the libraries that are currently added to the project, which can be made by Unity or third parties.
-
-&nbsp;
-
+    - **assets**: keeps all of your projects assets such as scenes, scripts, media, textures etc.
+    - **packages**: the libraries that are currently added to the project, which can be made by Unity or third parties.
 - **Scene** window shows the active scene's virtual environment. Any GameObject that is added to the scene will also have a gizmo in the scene window.
-
-&nbsp;
-
 - **Hierarchy** window displays active scene(s) and the GameObjects in each scene.  
     A GameObject
     - - can contain multiple components (MonoBehaviour scripts).  
@@ -38,61 +27,46 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
             \- can be renamed.  
             \- can be tagged.  
             \- can be activated or deactivated.
+- **Inspector** window shows the components of a GameObject. Here you can edit the script's _public variables_, manually add or remove _components_ and assign other components from the scene to public variables.
 
-&nbsp;
+![71afe71fadbd0d46764c3a797e5079aa.png](..\_resources\71afe71fadbd0d46764c3a797e5079aa.png)
 
-- **Inspector** window shows the components of a GameObject. Here you can edit the script's *public variables,* manually add or remove components and assign other components from the scene to public variables.
+![001-editor-panels-2.gif](..\_resources\001-editor-panels-2.gif)
 
-&nbsp;
+Play around with the scene and learn the commong shortcuts for manipulating GameObjects in the Scene:
+- W : xyz positioning
+- E : xyz rotation
+- R : xyz scaling
+![003-first-scene-2.gif](..\_resources\003-first-scene-2.gif)
 
-<img src="../_resources/71afe71fadbd0d46764c3a797e5079aa-2.png" alt="71afe71fadbd0d46764c3a797e5079aa.png" width="962" height="585">
+## Create the first script
 
-&nbsp;
+- Create a folder for your scripts and create a new script.
+- While Unity uses C# as programming language, GameObjects can only contain _MonoBehaviour_ classes. Therefore, your script name needs to be always followed by "_:MonoBehaviour_".
 
-<img src="../_resources/001-editor-panels-2.gif" alt="001-editor-panels.gif" width="854" height="480" class="jop-noMdConv">
-
-* * *
-
-- Play around with the scene.
-- Shortcuts for manipulating a GameObject in the Scene window:
-    - W : xyz positioning
-    - E : xyz rotation
-    - R : xyz scaling
-
-&nbsp;
-
-<img src="../_resources/003-first-scene-2.gif" alt="003-first-scene.gif" width="822" height="478" class="jop-noMdConv">
-
-&nbsp;
-
-# Create the first script
-
-- Create a folder for your scripts. Create a new script.
-    
-- As mentioned earlier, a script needs to derive from MonoBehaviour `public class FirstMonoBehaviour : MonoBehaviour` (indicated by '" : "), in order to work as its own component on a GameObject.
-    
-- Classes have namespaces or are global. They can inherit from another class, like MonoBehaviour.
-    
-- The `void Start()` is executed automatically when the scene is started. `void Update()` is called once per rendered frame, which means it is not consistent when frames drop but can be a good way for updating parameters smoothly.  
-    [Learn here more about the differences](https://learn.unity.com/tutorial/awake-and-start) between Unity's initialization calls like Awake, OnEnable, Start.
+  E.g.:
+  `using UnityEngine;
+  public class MyFirstScript : MonoBehaviour
+  {
+      void Start()
+      {
+      Debug.Log("Hi World");
+      }
+  }`
+        
+- The `void Start()` is executed automatically when the scene is started. `void Update()` is called once per rendered frame, which means it is a good way for updating parameters smoothly. [Learn more here about the differences](https://learn.unity.com/tutorial/awake-and-start) between Unity's initialization calls like Awake, OnEnable, Start.
     
 - The **Console** window shows the log that is outputted from scripts. You can filter what type of logs you want to see and you can search for keywords in the output texts. Double clicking on a log opens up the script that caused it.
     
+![004-first-scene-2.gif](..\_resources\004-first-scene-2.gif)
 
-&nbsp;
+- Public variables are declared by the word _public_ before the variable type. Variables can be of different types, with the most common ones being: _int_, _float_, _string_, _bool_, _GameObject_, _Transform_.
 
-<img src="../_resources/004-first-scene-2.gif" alt="004-first-scene.gif" width="794" height="auto" class="jop-noMdConv">
+- E.g. the `public GameObject` lets you assign a GameObject from your scene and access its properties, like e.g. the Transform component, which holds the spatial information about the object: position, rotation and scale. So a GameObject **always** has a Transform, but a Transform never has a GameObject.  The Transform of a GameObject is accessed by `myGameObject.transform`
+- By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.![005-first-scene-2.gif](..\_resources\005-first-scene-2.gif)
 
-- The `public Transform` lets you access the Transform component of a GameObject. You can always assign other GameObject's components to public properties in the inspector.
-- By calling the `Translate()` function on a Transform during `Update()`, you can automate position, rotation and scale.
+## More resources:
 
-<img src="../_resources/005-first-scene-2.gif" alt="005-first-scene.gif" width="785" height="auto" class="jop-noMdConv">
-
-* * *
-
-# More resources:
-
-- [This video from CodeMonkey](https://www.youtube.com/watch?v=E6A4WvsDeLE) wraps up the introduction into Unity and the Editor coherently.
-- If you [go through these learning tutorials](https://learn.unity.com/project/beginner-gameplay-scripting?uv=2019.3), you will have a pretty good foundation for later coding tasks. The better your understanding of C# coding is, the more creative interactions you can design and create. And [here you can find](https://learn.unity.com/project/intermediate-gameplay-scripting) the even more advanced coding tutorials.
-
-&nbsp;
+- For a more thourough (17minutes) introduction to Unity check out [this video from CodeMonkey](https://www.youtube.com/watch?v=E6A4WvsDeLE).
+- The official Unity learning tutorials [for begginner scripting](https://learn.unity.com/project/beginner-gameplay-scripting?uv=2019.3) and [intermediate gameplay scripting](https://learn.unity.com/project/intermediate-gameplay-scripting) will also provide you with a good foundation for later tasks.
+Keep in mind: While Unity lets you work visually with components and doesnt require you to code, a better understanding of C# will give you more power for designing and creating sophisticated and complex interactions.
