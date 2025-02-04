@@ -47,7 +47,8 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
 
   E.g.:
   
-  `using UnityEngine;
+```cs
+using UnityEngine;
   
   public class MyFirstScript : MonoBehaviour
   
@@ -57,7 +58,7 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
           Debug.Log("Hi World");
       }
   }
-  `
+```
         
 - `void Start()` is executed once when the scene is started in playmode and the GameObject is initialized.
 - `void Update()` is called once per rendered frame, which means it is a good way for updating parameters smoothly.
