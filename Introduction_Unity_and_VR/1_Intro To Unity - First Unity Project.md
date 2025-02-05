@@ -5,7 +5,7 @@
 - Create an account and activate the personal license (it is free).
 
 ## Install Unity Editor (skip if already installed)
-- In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2021.3.19f1 (LTS), or the latest 2021.3 LTS version.
+- In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2022 LTS version.
 ## Create A New Project
 - Click _New Project_.
 - Select _3D Core_ (it might be called _3D (Built-in Render Pipeline)_), enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
