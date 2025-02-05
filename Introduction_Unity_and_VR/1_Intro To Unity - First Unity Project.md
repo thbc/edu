@@ -24,12 +24,12 @@ Familiarize yourself with the Unity Editor window. You can customize the layout,
 - **Scene** window shows the active scene's virtual environment. Any GameObject that is added to the scene will also have a gizmo in the scene window.
 - **Hierarchy** window displays active scene(s) and the GameObjects in each scene.  
     A GameObject
-    - - can contain multiple components (MonoBehaviour scripts).  
-            \- can be nested as parent or child object.  
-            \- has always a Transform component attached to it which gives it's spatial dimension.  
-            \- can be renamed.  
-            \- can be tagged.  
-            \- can be activated or deactivated.
+    - can contain multiple components (MonoBehaviour scripts).
+    - can be nested as parent or child object.
+    - has always a Transform component attached to it which gives it's spatial dimension.
+    - can be renamed.
+    - can be tagged.
+    - can be activated or deactivated.
 - **Inspector** window shows the components of a GameObject. Here you can edit the script's _public variables_, manually add or remove _components_ and assign other components from the scene to public variables.
 
 
