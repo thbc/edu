@@ -1,3 +1,3 @@
 - [Introduction to Unity](1_Intro%20To%20Unity%20-%20First%20Unity%20Project.md)
 - [VR in Unity](2_Intro%20To%20VR%20-%20Our%20First%20VR%20Project.md)
-- [Accessibility in VR](Accesible%20VR%Design.md)
+- [Accessibility in VR](Accessibility%20VR%Unity.md)
