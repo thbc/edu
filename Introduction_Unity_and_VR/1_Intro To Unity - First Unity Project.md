@@ -6,6 +6,7 @@
 
 ## Install Unity Editor (skip if already installed)
 - In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2022 LTS version.
+- If you want to develop VR applications with e.g. Meta Quest, make sure to opt-in for the Android module when installing the Editor. You can deselect the Documentation and Visual Studio (if you have another Code Editor like "VS Code Studio" already - this will save storage space on your device.
 ## Create A New Project
 - Click _New Project_.
 - Select _3D Core_ (it might be called _3D (Built-in Render Pipeline)_), enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
